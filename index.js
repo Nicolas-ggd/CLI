@@ -50,11 +50,11 @@ async function question1() {
                 'How can i use it',
                 'How can i publish repository in Git',
                 'Basic Git commands',
-                'Goodbye',
+                'Exit',
             ],
         });
 
-        if (answer.question_1 === 'Goodbye') {
+        if (answer.question_1 === 'Exit') {
             console.clear();
             break;
         }
@@ -136,7 +136,7 @@ function handleAnswer(choice) {
                     This command is used to list the version history for the current branch.
 
             `
-        case 'Goodbye':
+        case 'Exit':
             return 'Goodbye! Have a great day!';
         default:
             return 'Invalid choice. Please choose one of the available options.';

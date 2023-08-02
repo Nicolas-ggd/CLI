@@ -135,6 +135,37 @@ function handleAnswer(choice) {
 
                     This command is used to list the version history for the current branch.
 
+                6. ${chalk.bgBlue('git clone')}
+
+                    Usage: ${chalk.bgBlue(`git clone 'HTTPS or SSH link'`)}
+
+                    Clone a remote repository to your local machine.
+
+                7. ${chalk.bgBlue('git pull')}
+
+                    Usage: ${chalk.bgBlue(`git pull origin 'remote repository name'`)}
+
+                    Fetch changes from a remote repository and merge them with your local branch.
+
+                8. ${chalk.bgBlue('git push')}
+
+                    Usage: ${chalk.bgBlue(`git push origin 'remote repository name'`)}
+
+                    Send your local commits to the remote repository.
+
+                9. ${chalk.bgBlue('git branch')}
+
+                    Usage: ${chalk.bgBlue(`git branch`)}
+
+                    List, create, or delete branches in your local repository.
+
+                10. ${chalk.bgBlue('git merge')}
+
+                    Usage: ${chalk.bgBlue(`git merge remote repository name/remote repository name`)}
+
+                    Combine changes from different branches into the current branch.
+
+
             `
         case 'Exit':
             return 'Goodbye! Have a great day!';

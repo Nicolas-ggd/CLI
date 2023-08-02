@@ -6,6 +6,10 @@ chalk | inquirer | gradient-string | chalk-animation | figlet | nanospinner
 
 `npm i chalk chalk-animation figlet gradient-string inquirer nanospinner`
 
-## After installing project run
+## To Install package run
 
-`node .` or `node index.js`
+`npm install ggd-cli` or `npm i ggd-cli`
+
+## After install package run
+
+`ggd-cli`
